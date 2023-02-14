@@ -1,10 +1,13 @@
-import { 
-    Router, Request, Response
-} from 'express';
+import { Router, Request, Response} from 'express';
 
 const router = Router();
 
 router.get('/',(req : Request, res: Response)=>{
+<<<<<<< HEAD
     res.send('Chaito mundo');
+=======
+    res.send('Hola mundo');
+
+>>>>>>> parent of cd195fe (fix: repair some stuff)
 });
 export default router;

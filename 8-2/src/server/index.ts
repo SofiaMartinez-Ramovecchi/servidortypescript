@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import Server from './server/server';
 import router from './router/router';
 //no encuentra los .ts
@@ -9,3 +10,5 @@ router.get('/',(req : Request, res: Response)=>{
     
 });
 server.start(function () { return console.log("Server started"); });
+=======
+>>>>>>> parent of cd195fe (fix: repair some stuff)
