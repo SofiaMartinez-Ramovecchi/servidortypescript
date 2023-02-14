@@ -1,4 +1,5 @@
 import express from express;
+//como hacer para que lea archivos .ts
 
 export default class Server{
     public app : express.Aplication;
